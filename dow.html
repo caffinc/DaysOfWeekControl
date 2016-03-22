@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day-of-week</title>
+</head>
+<body>
+<div class="content">
+    <div id="dow"></div>
+</div>
+<script src="dow.js"></script>
+<link rel="stylesheet" type="text/css" href="dow.css">
+<script>
+    Dow.setDow({
+        target: document.getElementById("dow"),
+        dow: [1,2,5],
+        names: {
+            1: "SUN",
+            2: "MON",
+            3: "TUE",
+            4: "WED",
+            5: "THU",
+            6: "FRI",
+            7: "SAT"
+        }
+    });
+</script>
+</body>
+</html>
