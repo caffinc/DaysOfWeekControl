@@ -22,13 +22,7 @@ The `target` field `dow` must be a `div`. The `dow` field is an array indicating
 
 ### How it looks
 
-<img src="https://caffinc.github.io/images/dow.png" style="width: 200px;"/>
-<div id="divTest"></div>
-<script src="https://raw.githubusercontent.com/caffinc/DaysOfWeekControl/master/dow.js"></script>
-<link src="https://raw.githubusercontent.com/caffinc/DaysOfWeekControl/master/dow.css"></link>
-<script>
-	Dow.setDow({"target": document.getElementById("divTest"), "dow":[1,2]});
-</script>
+<img src="https://caffinc.github.io/images/dow.png" style="width: 100px;"/>
 
 ### Help
 
